@@ -1,0 +1,27 @@
+{
+  "themeColor": "red",
+  "serversToAdd": [
+    "VIP 4 - Fastly Edge Tokyo (Độ trễ thấp)",
+    "VIP 5 - Fshare 10Gbps CDN Quốc Tế"
+  ],
+  "bufferLatency": "0.25s (Edge Memory Caching)",
+  "autoNextEpisode": false,
+  "ambientCinema": false,
+  "keyboardShortcuts": true,
+  "resumePlayback": true,
+  "bandwidthSaver": false,
+  "smartSpeed": false,
+  "lastDirectives": [
+    "Kích hoạt chế độ Netflix Red và bổ sung server Fastly Tokyo",
+    "Thêm bộ lọc thông minh theo Trang Bị Khởi Đầu & Tướng Ra Sớm",
+    "Bổ sung máy tính xác suất Roll tướng Mùa 18 theo cấp 7/8/9 & Chuỗi kinh tế",
+    "Cập nhật dữ liệu Meta Đội Hình S-Tier Mùa 18 (Cơ Giáp Tương Lai, Hắc Tinh)",
+    "Cập nhật dữ liệu meta sang mùa 18",
+    "Yêu cầu thi công: Vãi lồn sao còn đang mùa 13???đang mùa 18 rồi, uodate theo thời gian thực đi!!",
+    "Yêu cầu thi công: Tôi muốn làm 1 web giống meta tft trực quan dễ dùng, trước mắt cho người việt dịch chuẩn, update các meta đội hình thật sự mạnh, uodate từ nhiều nguồn và các soical mạng xã bội và dùng thuật toán đánh giá xem đội hình nào thật sự mạnh theo từng thứ hạng và  tạo 1 chức năng chọn đội hình dựa trên các biến số có từ sớm ví dụ như kì ngộ(ko nhó rõ tên) đồ cho sớm ở round hay các lõi ra và đề xuất nếu chọn dạng click để suy diễm đội hình nhanh chóng, xếp hạng luôn các lõi top tier đáng dụgnfng và đội hình phù hợp!! Luôn uodate meta nếu meta hay patch cập nhật thay đổi và các dữ liệu sociabl",
+    "Bổ sung Danh sách xem sau (Watchlist) & Tiếp tục xem tập dở",
+    "Thiết lập tường lửa chống leech link m3u8 & Chặn nhúng trộm",
+    "Tối ưu hóa bộ đệm HLS 60FPS & Bổ sung chuyển đổi chất lượng 4K"
+  ],
+  "updatedAt": "2026-10-03T17:41:44.701Z"
+}

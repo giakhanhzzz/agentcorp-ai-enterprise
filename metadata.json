@@ -1,0 +1,7 @@
+{
+  "name": "AgentCorp - AI Multi-Agent Enterprise",
+  "description": "Hệ thống đa tác nhân AI tự vận hành như một công ty: tự động phân tích bài toán, chia nhỏ nhiệm vụ, thảo luận đa góc nhìn và thực thi quy trình.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

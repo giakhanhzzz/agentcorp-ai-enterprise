@@ -1,0 +1,69 @@
+{
+  "botToken": "8918108622:AAH3k5tIIZRAwHvKVicVBVqstmuq3GM37Bs",
+  "latestChat": {
+    "id": 5338634795,
+    "type": "private"
+  },
+  "activeMission": {
+    "mission": "Xây dựng hệ thống Apex Legends Pro Tracker theo dõi rank Predator 120Hz, radar meta Season 23 và mô phỏng sát thương TTK vũ khí",
+    "createdAt": "2026-09-26T05:25:53.721Z",
+    "executiveSummary": "Kế hoạch xây dựng nền tảng Apex Legends Pro Tracker & Esports Telemetry: theo dõi rank Predator thời gian thực 120Hz, phân tích radar meta tướng Season 23, mô phỏng sát thương TTK vũ khí và tính điểm synergy đội hình ALGS.",
+    "tasks": [
+      {
+        "id": "task-1",
+        "title": "Thiết Kế Cổng Kết Nối Telemetry EA Apex Legends API & Caching Redis",
+        "department": "Kỹ Thuật Hệ Thống",
+        "assignedAgentId": "architect",
+        "status": "in_progress",
+        "progress": 50,
+        "description": "Xây dựng service kết nối EA / Tracker Network API, thiết lập bộ đệm Redis In-Memory TTL 60s và WebSocket truyền telemetry trận đấu."
+      },
+      {
+        "id": "task-2",
+        "title": "Phát Triển Giao Diện Tra Cứu Rank Predator & Bảng Xếp Hạng 120Hz",
+        "department": "Sản Phẩm & Trải Nghiệm",
+        "assignedAgentId": "cpo",
+        "status": "in_progress",
+        "progress": 50,
+        "description": "Xây dựng giao diện Dark Esports UI, tra cứu nhanh Gamertag, hiển thị Rank Badge Predator, RP, K/D và lịch sử 5 trận gần nhất."
+      },
+      {
+        "id": "task-3",
+        "title": "Xây Dựng Thuật Toán Tính Toán TTK & Mô Phỏng Sát Thương Vũ Khí",
+        "department": "Kỹ Thuật Hệ Thống",
+        "assignedAgentId": "architect",
+        "status": "in_progress",
+        "progress": 50,
+        "description": "Engine tính toán sát thương từng viên, tốc độ bắn RPM, headshot multiplier và số mili-giây hạ gục (TTK) theo từng bậc giáp."
+      },
+      {
+        "id": "task-4",
+        "title": "Kiểm Thử Tải High-QPS & Phòng Chống Rate Limit API EA",
+        "department": "Thẩm Định & Rủi Ro",
+        "assignedAgentId": "qa_critic",
+        "status": "in_progress",
+        "progress": 50,
+        "description": "Kiểm thử chịu tải 10,000 người tra cứu đồng thời, cơ chế Circuit Breaker khi server EA bảo trì và ma trận xử lý lỗi crossplay."
+      },
+      {
+        "id": "task-5",
+        "title": "Hệ Thống Phân Tích Meta Tướng & Đội Hình Synergy ALGS",
+        "department": "Tiếp Thị & Tăng Trưởng",
+        "assignedAgentId": "cmo",
+        "status": "in_progress",
+        "progress": 50,
+        "description": "Radar meta Season 23, pick rate / win rate từng Legend và tính năng chia sẻ thẻ thành tích Predator 1-click lên Discord."
+      },
+      {
+        "id": "task-6",
+        "title": "Tối Ưu Hóa Chi Phí Băng Thông Mạng Lưới Edge & Mô Hình Tài Trợ Esports",
+        "department": "Vận Hành & Tài Chính",
+        "assignedAgentId": "cfo",
+        "status": "in_progress",
+        "progress": 50,
+        "description": "Cấu hình triển khai Cloudflare Pages / Vercel Edge $0 duy trì chi phí và kế hoạch hợp tác tài trợ thiết bị gaming."
+      }
+    ]
+  },
+  "updatedAt": "2026-09-26T05:25:58.501Z"
+}
