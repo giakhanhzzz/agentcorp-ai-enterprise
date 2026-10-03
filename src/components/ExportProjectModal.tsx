@@ -57,9 +57,7 @@ export const ExportProjectModal: React.FC<ExportProjectModalProps> = ({
   const [isZipping, setIsZipping] = useState(false);
 
   // Auto Git Push States
-  const [githubRepoName, setGithubRepoName] = useState(() =>
-    projectName.toLowerCase().replace(/[^a-z0-9]/g, "-").replace(/-+/g, "-") || "my-web-project"
-  );
+  const [githubRepoName, setGithubRepoName] = useState("agentcorp-ai-enterprise");
   const [githubToken, setGithubToken] = useState("");
   const [gitStatus, setGitStatus] = useState<"idle" | "sanitizing" | "pushing" | "success" | "error">("idle");
   const [gitMessage, setGitMessage] = useState("");
@@ -753,9 +751,44 @@ npm run build
                         type="text"
                         value={githubRepoName}
                         onChange={(e) => setGithubRepoName(e.target.value)}
-                        placeholder="motfilm-pro-website"
+                        placeholder="agentcorp-ai-enterprise"
                         className="w-full px-3 py-2 rounded-xl bg-slate-900 border border-slate-700 text-white font-mono text-xs focus:outline-none focus:border-indigo-500"
                       />
+                      <div className="flex flex-wrap items-center gap-1.5 mt-1.5">
+                        <button
+                          type="button"
+                          onClick={() => setGithubRepoName("agentcorp-ai-enterprise")}
+                          className={`px-2 py-0.5 rounded text-[10px] font-bold border transition-colors ${
+                            githubRepoName === "agentcorp-ai-enterprise"
+                              ? "bg-indigo-600/30 text-indigo-300 border-indigo-500"
+                              : "bg-slate-900 text-slate-400 border-slate-800 hover:text-white"
+                          }`}
+                        >
+                          🏢 agentcorp-ai-enterprise (Gốc)
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setGithubRepoName("motfilm-pro-4k")}
+                          className={`px-2 py-0.5 rounded text-[10px] font-bold border transition-colors ${
+                            githubRepoName === "motfilm-pro-4k"
+                              ? "bg-red-600/30 text-red-300 border-red-500"
+                              : "bg-slate-900 text-slate-400 border-slate-800 hover:text-white"
+                          }`}
+                        >
+                          🎬 motfilm-pro-4k
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => setGithubRepoName("tft-meta-pro")}
+                          className={`px-2 py-0.5 rounded text-[10px] font-bold border transition-colors ${
+                            githubRepoName === "tft-meta-pro"
+                              ? "bg-cyan-600/30 text-cyan-300 border-cyan-500"
+                              : "bg-slate-900 text-slate-400 border-slate-800 hover:text-white"
+                          }`}
+                        >
+                          ♟️ tft-meta-pro
+                        </button>
+                      </div>
                     </div>
 
                     <div>
